@@ -1,0 +1,37 @@
+{
+  "name": "storybook-workspace",
+  "version": "0.0.1",
+  "description": "A workspace for me to play around with some ideas",
+  "main": "index.js",
+  "repository": "https://github.com/jasondippel/storybook-workspace.git",
+  "author": "Jason Dippel <dippelj12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-hoc-theme": "^1.0.1",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.6.4",
+    "@babel/core": "7.6.4",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "7.6.2",
+    "@babel/plugin-transform-regenerator": "7.4.5",
+    "@babel/plugin-transform-runtime": "7.6.2",
+    "@storybook/addon-a11y": "^5.2.5",
+    "@storybook/react": "5.2.5",
+    "@storybook/theming": "5.2.5",
+    "babel-eslint": "10.0.3",
+    "babel-loader": "8.0.6",
+    "eslint": "6.5.1",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.16.0",
+    "prettier": "1.18.2"
+  },
+  "scripts": {
+    "workspace": "start-storybook"
+  }
+}
