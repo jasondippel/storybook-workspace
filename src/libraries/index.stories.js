@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { useTheme as useThemeHoc } from 'react-hoc-theme'
 
 const Root = useThemeHoc(styled.div`
-  color: ${p => p.$theme.text};
+  color: ${p => p.$theme`colors/text`};
 `)
 
 export default { title: 'Packages|Libraries/Sample' }

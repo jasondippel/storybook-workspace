@@ -11,7 +11,8 @@ const COLOR_SECTIONS = {
     'background300',
     'background400',
     'background500',
-    'background600',
+    'backgroundLight',
+    'backgroundDark',
     'keyline',
   ],
   Primary: ['primary', 'primaryAccent', 'primaryBackground'],
@@ -21,7 +22,8 @@ const COLOR_SECTIONS = {
 }
 
 const Title = useTheme(styled.h3`
-  color: ${p => p.$theme.text};
+  color: ${p => p.$theme`colors/text`};
+  border-bottom: 1px solid ${p => p.$theme`colors/keyline`};
   font-family: arial;
 `)
 
@@ -33,8 +35,10 @@ export const Colors = useTheme(({ $theme }) => (
       <React.Fragment key={`${s}_fragment`}>
         <Title key={s}>{s}</Title>
         {COLOR_SECTIONS[s].map(k => {
-          const key = `${k}_${$theme[k]}`
-          return <ColorSwatch color={$theme[k]} text={k} key={key} />
+          const key = `${k}_${$theme(`colors/${k}`)}`
+          return (
+            <ColorSwatch color={$theme(`colors/${k}`)} text={k} key={key} />
+          )
         })}
       </React.Fragment>
     ))}

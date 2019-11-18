@@ -5,10 +5,16 @@ import { withA11y } from '@storybook/addon-a11y'
 import { configure, addDecorator, addParameters } from '@storybook/react'
 import workspaceTheme from './workspaceTheme'
 
-const Root = useTheme(styled.div`
+const Root = styled.div`
   padding: 16px;
-  box-sizing: border-box;
-`)
+`
+
+const DemoBase = useTheme(({ $theme, storyFn }) => {
+  const IframeRoot = document.getElementById('root')
+  IframeRoot.style.background = $theme`colors/background100`
+
+  return <Root>{storyFn()}</Root>
+})
 
 // Option defaults.
 addParameters({
@@ -20,7 +26,7 @@ addParameters({
   },
 })
 
-addDecorator(storyFn => <Root id="myRoot">{storyFn()}</Root>)
+addDecorator(storyFn => <DemoBase storyFn={storyFn} />)
 addDecorator(withA11y)
 
 configure(require.context('../src/', true, /\.stories\.js$/), module)

@@ -20,7 +20,7 @@ const Circle = useTheme(styled.div`
   min-height: ${CIRCLE_SIZE}px;
   border-radius: 50%;
   background-color: ${p => p.color};
-  border: 1px solid ${p => p.$theme.keyline};
+  border: 1px solid ${p => p.$theme`colors/keyline`};
   margin-right: 15px;
 `)
 
@@ -31,14 +31,15 @@ const Description = styled.div`
 `
 
 const Title = useTheme(styled.h2`
-  color: ${p => useContrastingText(p.$theme.background100)};
+  color: ${p => useContrastingText(p.$theme`colors/background100`)};
   font-size: 14px;
   margin: 0px;
 `)
 
 const Metadata = useTheme(styled.p`
-  color: ${p => p.$theme.textMeta};
+  color: ${p => p.$theme`colors/textMeta`};
   font-size: 12px;
+  text-transform: uppercase;
   margin: 0px;
 `)
 

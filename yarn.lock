@@ -1066,7 +1066,7 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@storybook/addon-a11y@^5.2.5":
+"@storybook/addon-a11y@5.2.5":
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-5.2.5.tgz#e593b2b15573eb7d8ca9bb15130622af5fa82475"
   integrity sha512-T7uK5B4Cp+bkC5BGVxSeSzXB8/AZA5uYPi8xqf6KQYizhrTsXZBrNwx2Lkbq1QP4Pcs8T2y3EG5/GikMIGoCPw==
@@ -1089,7 +1089,7 @@
     redux "^4.0.1"
     util-deprecate "^1.0.2"
 
-"@storybook/addons@5.2.5", "@storybook/addons@^5.2.5":
+"@storybook/addons@5.2.5":
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.2.5.tgz#e3e23d5ea6eb221df31e1a5d125be47454e9a0e8"
   integrity sha512-CvMj7Bs3go9tv5rZuAvFwuwe8p/16LDCHS7+5nVFosvcL8nuN339V3rzakw8nLy/S6XKeZ1ACu4t3vYkreRE3w==
@@ -1102,7 +1102,7 @@
     global "^4.3.2"
     util-deprecate "^1.0.2"
 
-"@storybook/api@5.2.5", "@storybook/api@^5.2.5":
+"@storybook/api@5.2.5":
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/@storybook/api/-/api-5.2.5.tgz#dcc68c873820485372a47c095a8fc5e4fb53a34c"
   integrity sha512-JvLafqFVgA3dIWpLMoGNk4sRuogE5imhD6/g0d8DOwnCID9xowj5xIptSrCTKvGGGxuN3wWRGn6I2lEbY6969g==
@@ -1171,7 +1171,7 @@
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/components@5.2.5", "@storybook/components@^5.2.5":
+"@storybook/components@5.2.5":
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-5.2.5.tgz#40190dafbee34f083182255d26c19a0ea50789c8"
   integrity sha512-6NVaBJm5wY53e9k+2ZiL2ABsHghE1ssQciLTG3jJPahnM6rfkM8ue66rhxhP88jE9isT48JgOZOJepEyxDz/fg==
@@ -1196,7 +1196,7 @@
     react-textarea-autosize "^7.1.0"
     simplebar-react "^1.0.0-alpha.6"
 
-"@storybook/core-events@5.2.5", "@storybook/core-events@^5.2.5":
+"@storybook/core-events@5.2.5":
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-5.2.5.tgz#62881164a4a01aa99ff0691e70eaed2dd58e229e"
   integrity sha512-O5GM8XEBbYNbM6Z7a4H1bbnbO2cxQrXMhEwansC7a7YinQdkTPiuGxke3NiyK+7pLDh778kpQyjoCjXq6UfAoQ==
@@ -6708,10 +6708,10 @@ react-helmet-async@^1.0.2:
     react-fast-compare "^2.0.4"
     shallowequal "^1.1.0"
 
-react-hoc-theme@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-hoc-theme/-/react-hoc-theme-1.0.1.tgz#895c34da5c8bab04db6dced2e27bb360f9ce2797"
-  integrity sha512-6Y6cAA9ZXtsADPioLg9q+4wqRAPca8iCSAzDwDbufR2XXKsbXpskJ+6qCG6rjdgXShvv0ypjlMMI6deR3pALTA==
+react-hoc-theme@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-hoc-theme/-/react-hoc-theme-1.1.1.tgz#c574a250a37da15fd35f37876e42f097c58334f1"
+  integrity sha512-1zOSybqN+z6LSsBVEBE5K9yzslcWrhoS13TDE2yfzI2pUquwEg2w1lOHeomSOtIRGypZ/n8X9QzgCPOtwLZjpQ==
   dependencies:
     pubsub-js "1.7.0"
 
