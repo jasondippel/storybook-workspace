@@ -6708,10 +6708,10 @@ react-helmet-async@^1.0.2:
     react-fast-compare "^2.0.4"
     shallowequal "^1.1.0"
 
-react-hoc-theme@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-hoc-theme/-/react-hoc-theme-1.1.1.tgz#c574a250a37da15fd35f37876e42f097c58334f1"
-  integrity sha512-1zOSybqN+z6LSsBVEBE5K9yzslcWrhoS13TDE2yfzI2pUquwEg2w1lOHeomSOtIRGypZ/n8X9QzgCPOtwLZjpQ==
+react-hoc-theme@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-hoc-theme/-/react-hoc-theme-2.0.1.tgz#a1fbce61d4328d6b000a048e9943d1d47fa6d385"
+  integrity sha512-TP5IKcsKIgmmHoSJcDdEpRXnqiwuTYat8vXltAYzotNBkrda0D4qg2d0z+2VzwBEsQV2nyDatllVmpLLQJs03A==
   dependencies:
     pubsub-js "1.7.0"
 
