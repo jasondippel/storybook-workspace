@@ -1,11 +1,9 @@
 import React from 'react'
-import styled from 'styled-components'
-import { useTheme as useThemeHoc } from 'react-hoc-theme'
-
-const Root = useThemeHoc(styled.div`
-  color: ${p => p.$theme.text};
-`)
+import { Colors } from './Colors'
+import { ColorCombinations } from './ColorCombinations'
 
 export default { title: 'Packages|Components/react-hoc-theme' }
 
-export const sample = () => <Root>TODO: add some content...</Root>
+export const colors = () => <Colors />
+
+export const colorCombinations = () => <ColorCombinations />
